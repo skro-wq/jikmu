@@ -1,0 +1,61 @@
+{
+  "simulation": {
+    "target_episodes": 400,
+    "seed": 20250807
+  },
+  "llm_model": "claude-sonnet-5",
+  "company_sizes": [
+    "스타트업",
+    "중소기업",
+    "중견기업",
+    "대기업"
+  ],
+  "industries": [
+    "제약",
+    "IT",
+    "제조",
+    "반도체"
+  ],
+  "invention_impacts": [
+    "미미",
+    "보통",
+    "중요",
+    "핵심"
+  ],
+  "formality_levels": {
+    "0": "없음",
+    "1": "구두통보",
+    "2": "서면(미공지)",
+    "3": "서면+공지+의견청취"
+  },
+  "compensation_tiers": [
+    "최저",
+    "보통",
+    "우수",
+    "최고"
+  ],
+  "shock_types": [
+    "사업화성공",
+    "이직제안",
+    "M&A",
+    "라이선스수입",
+    "침해소송승소",
+    "무효소송승소"
+  ],
+  "cognition_modes": [
+    "S1",
+    "S2"
+  ],
+  "s1_emotions": [
+    "분노",
+    "배신감",
+    "손실회피",
+    "공포",
+    "탐욕",
+    "충성심",
+    "매몰비용",
+    "자부심"
+  ],
+  "backend": "claude-cli (headless, host login)",
+  "note": "extreme_gap 넛지 제거 버전. 모델=Claude Sonnet 5."
+}

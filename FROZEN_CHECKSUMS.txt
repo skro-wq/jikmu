@@ -1,0 +1,12 @@
+6b3d60e1690338cc6341731a9ab85f812678ddabe85633e73d379914c94b1372  ANALYSIS_PLAN_FROZEN.md
+1dcd7c74d79e4f8b411d050916de56797ee448e7181157c387afca24f62ec987  env.py
+47a811e17fb91edda958caa648e28d4f62563748c3c586ff9e8aa1dc9898ec28  agents.py
+32c4392c5aaeda5d6db02650d0d4bfb7fcb78432e52aea4a4ef081c077c183af  parallel_run.py
+2026-07-24 03:59:40 PDT
+
+--- 수정 (2026-07-24, I/O 계층만) ---
+parallel_run.py를 증분 저장·재개 방식으로 변경. 시나리오 생성·프롬프트·종속변수는 불변이므로
+env.py / agents.py / ANALYSIS_PLAN_FROZEN.md 해시는 그대로다. 변경 사유: 512건 실행이 크레딧
+소진으로 119건에서 중단되었을 때 완주 시점 일괄 저장 구조 탓에 전부 유실되었다.
+15857899b3984885234b8fb8f419442772eb0b9c4c02344919d4311f8eb95ac8  parallel_run.py
+2026-07-24 04:33:20 PDT

@@ -1,0 +1,18 @@
+{
+  "model": "claude-sonnet-5",
+  "backend": "claude",
+  "call_shape": "legacy",
+  "n_requested": 512,
+  "n_realized": 512,
+  "seed": 20250807,
+  "workers": 8,
+  "retries": 46,
+  "dropped": 0,
+  "comp_ratio_levels": {
+    "0": 1.0,
+    "1": 2.5,
+    "2": 5.0,
+    "3": 10.0
+  },
+  "cells_short_of_target": {}
+}
